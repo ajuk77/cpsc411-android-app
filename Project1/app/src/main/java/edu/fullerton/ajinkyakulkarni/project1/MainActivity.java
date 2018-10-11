@@ -1,5 +1,6 @@
 package edu.fullerton.ajinkyakulkarni.project1;
 
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
@@ -8,7 +9,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import java.text.DecimalFormat;
-
+/*
+CPSC411: MiniApp1
+Name: Ajinkya Kulkarni
+CWID: 893566448
+ */
 public class MainActivity extends AppCompatActivity {
 
     private TextView result;
@@ -78,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
 
         String pattern = "#.#";
         DecimalFormat decimalFormat = new DecimalFormat(pattern);
+        result.setTypeface(result.getTypeface(), Typeface.BOLD);
         result.setText(getString(R.string.transfer_time) + " " + String.valueOf(decimalFormat.format(output)) + " " + getString(R.string.sec));
 
     }
