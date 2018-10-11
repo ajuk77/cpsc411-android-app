@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ISP Converter</string>
+    <string name="transfer_time">Transfer time is</string>
+    <string name="sec">sec</string>
+    <string name="label_network_speed">Enter network speed in Mbps</string>
+    <string name="label_file_size">Enter file size in MB</string>
+
+</resources>
